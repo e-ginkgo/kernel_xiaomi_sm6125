@@ -1,0 +1,63 @@
+make[1]: Entering directory '/workspace/kernel_xiaomi_sdm6125/out'
+  GEN     ./Makefile
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/workspace/kernel_xiaomi_sdm6125/out'
+
+Starting compilation...
+
+make[1]: Entering directory '/workspace/kernel_xiaomi_sdm6125/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  Using .. as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      security/selinux/hooks.o
+  CC      security/selinux/netlink.o
+  CC      arch/arm64/lib/delay.o
+  CC      security/selinux/nlmsgtab.o
+  AR      arch/arm64/lib/lib.a
+  EXPORTS arch/arm64/lib/lib-ksyms.o
+  CC      security/selinux/netif.o
+  CC      security/selinux/netnode.o
+  CC      lib/lockref.o
+  CC      security/selinux/netport.o
+  AR      arch/arm64/lib/built-in.o
+  CC      security/selinux/exports.o
+  DTC     arch/arm64/boot/dts/xiaomi/qcom-base/trinket.dtb
+  CC      lib/div64.o
+  CC      lib/parser.o
+  GZIP    kernel/config_data.gz
+  DTC     arch/arm64/boot/dts/xiaomi/ginkgo-trinket-overlay.dtbo
+  CHK     kernel/kheaders_data.tar.xz
+  CC      lib/debug_locks.o
+  CC      lib/random32.o
+  CHK     kernel/config_data.h
+  CC      lib/bust_spinlocks.o
+  CC      lib/kasprintf.o
+  CC      lib/bitmap.o
+  CC      lib/scatterlist.o
+  CC      lib/gcd.o
+  CC      lib/list_sort.o
+  CC      lib/uuid.o
+  CC      lib/flex_array.o
+  CC      lib/iov_iter.o
+  CC      lib/clz_ctz.o
+  CC      lib/bsearch.o
+  CC      lib/find_bit.o
+  CC      lib/llist.o
+  CC      lib/memweight.o
+  CC      lib/kfifo.o
+  CC      lib/percpu-refcount.o
+  CC      lib/percpu_ida.o
+  CC      lib/rhashtable.o
+  CC      lib/reciprocal_div.o
